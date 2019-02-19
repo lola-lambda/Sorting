@@ -46,7 +46,7 @@ def bubble_sort(arr):
 # runtime: O(n**2) comparisons & swaps
 
 # STRETCH: implement the Count Sort function below
-def count_sort( arr, maximum=-1 ):
+def count_sort(arr, maximum=-1):
     m = maximum + 1
     count = [0] * m
     # create array of zeros that is length maximum value + 1
